@@ -2,19 +2,76 @@
 
 /*-- iPhone X Remove Gutters --*/
 
+html {
+	padding: env(safe-area-inset);
+}
+
 /*-- Prevent Horizontal Scrolling & Font Style --*/
 
+html,
+body {
+	overflow-x: hidden;
+	font-family: 'Lato', sans-serif;
+	color: #505962;
+}
+
+.text-nuno {
+	color: #1ebba3;
+}
 /*--- Nav Scrolling Offset --*/
 
 /*--- Extra Bootstrap Column Padding --*/
 
-
 /*============= NAVIGATION =============*/
+.navbar-brand img {
+	height: 2rem; /*equivalente a 32px*/
+}
+.navbar {
+	padding: 0.7rem 1rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 0.1rem;
+	font-size: 0.9rem;
+	transition: background-color 0.5s ease;
+}
 
+.navbar-nav li {
+	padding-right: 0.8rem;
+}
+
+.navbar-nav .nav-link {
+	color: white;
+	padding-top: 0.8rem;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+	color: #1ebba3;
+}
+.custom-toggler-icon {
+	color: white;
+	font-size: 1.6rem;
+}
 
 /*-- Remove Button Outline --*/
+button:focus,
+a:focus {
+	outline: 0 !important;
+	-webkit-appearance: none;
+	box-shadow: none;
+}
 
+button,
+a,
+a.btn {
+	transition: all 0.6s ease;
+}
 
+.navbar.solid,
+.navbar.solid-toggle {
+	background: rgba(0, 0, 0, 0.7) !important;
+	transition: background-color 1s ease;
+}
 /*============= LANDING PAGE =============*/
 
 /*--- Fixed Landing Page Section --*/
@@ -23,52 +80,37 @@
 
 /*-- Bouncing Down Arrow --*/
 
-
 /*============= FEATURES SECTION =============*/
-
 
 /*===== FIXED BACKGROUND IMG DARK =====*/
 
 /*--- iOS Fixed Background Image --*/
 
-
 /*============= PORTFOLIO SECTION =============*/
 
-
 /*============= PRICING SECTION =============*/
-
 
 /*============= TEAM SECTION FIXED BG IMG LIGHT =============*/
 
 /*--- Team Light Background Image --*/
 
-
 /*============= SKILLS SECTION =============*/
-
 
 /*============= CLIENTS SECTION =============*/
 
-
 /*============= CONTACT SECTION =============*/
-
 
 /*--- Contact Form --*/
 
-
 /*============= TOP SCROLL =============*/
-
 
 /*============= MEDIA QUERIES =============*/
 
 /* Devices under 992px (lg) */
 
-
 /* Devices under 768px (md) */
 
-
 /* Devices under 576px (sm) */
-
-
 
 /*============ BOOTSTRAP BREAK POINTS:
 
