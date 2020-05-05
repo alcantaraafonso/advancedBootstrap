@@ -64,7 +64,8 @@ a.btn:focus {
 
 button,
 a,
-a.btn {
+a.btn,
+.fas {
 	transition: all 0.6s ease;
 }
 
@@ -134,7 +135,22 @@ a.btn {
 	font-size: 1.1rem;
 }
 /*-- Bouncing Down Arrow --*/
+.arrow {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	animation: bounce 2s infinite;
+	-webkit-animation: bounce 2s infinite;
+}
 
+.down-arrow .fas {
+	color: white;
+	font-size: 2.2rem;
+	opacity: 0.3;
+}
+.down-arrow .fas:hover {
+	opacity: 0.8;
+}
 /*============= FEATURES SECTION =============*/
 
 /*===== FIXED BACKGROUND IMG DARK =====*/
