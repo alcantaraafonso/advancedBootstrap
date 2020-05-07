@@ -2,14 +2,14 @@
 
 Este tema foi criado usado: <br>
 HTML 5; <br>
-CSS 3;
-Bootstrap 4;
-jQuery 3;
-Animações com Animate.css e Waypoints.js;
-Fontawesome 5;
-Owl.Carousel.js;
+CSS 3; <br>
+Bootstrap 4; <br>
+jQuery 3; <br>
+Animações com Animate.css e Waypoints.js; <br>
+Fontawesome 5; <br>
+Owl.Carousel.js; <br>
 
-Página Web que não precisa de nenhum HTTP Server para rodar.
+Página Web que não precisa de nenhum HTTP Server para rodar. <br>
 
 Caso se queira rodar usando algum AddOn, indico dois:
 
