@@ -9,6 +9,10 @@ Animações com Animate.css e Waypoints.js; <br>
 Fontawesome 5; <br>
 Owl.Carousel.js; <br>
 
+## O tema
+
+![View inicial](/img/tela_01_.PNG)
+
 Página Web que não precisa de nenhum HTTP Server para rodar. <br>
 
 Caso se queira rodar usando algum AddOn, indico dois:
