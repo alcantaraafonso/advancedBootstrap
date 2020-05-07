@@ -11,7 +11,7 @@ Owl.Carousel.js; <br>
 
 ## O tema
 
-![View inicial](/img/tela_01_.PNG)
+![View inicial](img/tela_01_.PNG)
 
 Página Web que não precisa de nenhum HTTP Server para rodar. <br>
 
