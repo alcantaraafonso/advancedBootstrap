@@ -11,19 +11,18 @@ Owl.Carousel.js; <br>
 
 ## O tema
 
-![View inicial](img/tela_01_.PNG)
+![View inicial](img/tela_01.PNG)
 
-Página Web que não precisa de nenhum HTTP Server para rodar. <br>
+## Executando
+Como é uma página estática, não há necessidade de HTTP Server, porém caso se queira rodar usando algum AddOn, indico dois:
 
-Caso se queira rodar usando algum AddOn, indico dois:
-
-## GoLive
+### GoLive
 
 Extensão do VS Code que roda em: http://127.0.0.1:5500/index.html
 
-## Browser-sync
+### Browser-sync
 
-### Instalação:
+#### Instalação:
 
 npm install -g browser-sync
 
