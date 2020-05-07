@@ -1,7 +1,7 @@
 # advancedBootstrap
 
-Este tema foi criado usado:
-HTML 5;
+Este tema foi criado usado: <br>
+HTML 5; <br>
 CSS 3;
 Bootstrap 4;
 jQuery 3;
