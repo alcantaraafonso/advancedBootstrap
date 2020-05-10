@@ -356,12 +356,56 @@ ul.social li a:hover {
 	color: #505962;
 }
 
-/*============= SKILLS SECTION =============*/
-
 /*============= CLIENTS SECTION =============*/
+#clients-carousel {
+	max-width: 1200px;
+	margin: 0 auto;
+}
 
+.clients img {
+	border-radius: 50%;
+	transition: transform 0.3s ease;
+}
+
+.clients img:hover {
+	transform: scale(0.95);
+}
+
+blockquote .fa-quote-left {
+	margin: 1rem;
+	color: #1ebba3;
+}
+
+.clients-hr {
+	border-top: 0.1rem solid;
+	color: #1ebba3;
+}
 /*============= CONTACT SECTION =============*/
+.footer {
+	background: url('../img/footer/footer.jpg') no-repeat;
+	background-size: cover;
+	/* background-color: #505962; */
+	color: white;
+}
 
+.row.outer {
+	background-color: rgba(57, 63, 70, 0.85);
+	padding: 1rem 2rem 3rem;
+}
+
+.footer img {
+	height: 2rem;
+	margin: 1.5rem 0;
+}
+
+.footer a,
+.footer ul.social li a {
+	color: white;
+}
+
+.footer ul.social li a:hover {
+	color: #1ebba3;
+}
 /*--- Contact Form --*/
 
 /*============= TOP SCROLL =============*/

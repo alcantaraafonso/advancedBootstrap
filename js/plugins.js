@@ -74,8 +74,36 @@ $(document).ready(function () {
 });
 
 /*========== SKILLS COUNTER ==========*/
+$(document).ready(function () {
+	$('counter').counterUp({
+		delay: 10,
+		time: 3000,
+		beginAt: 0
+	});
+});
 
 /*========== CLIENTS CAROUSEL ==========*/
+$(document).ready(function () {
+	//when document(DOM) loads completely
+	$('#clients-carousel').owlCarousel({
+		//owlCarousel settings
+		autoplay: false, //set to false to turn off autoplay and only use nav
+		autoplayHoverPause: true, //set to false to prevent pausing on hover
+		loop: true, //set to false to stop carousel after all slides shown
+		autoplayTimeout: 8000, //time between transitions
+		smartSpeed: 1600, //transition speed
+		navSpeed: 1000, //transition speed when using dots/buttons
+		responsive: {
+			//set number of items shown per screen width
+			0: {
+				items: 1 //0px width and up display 1 item
+			},
+			768: {
+				items: 2 //576px width and up display 2 items
+			}
+		}
+	});
+});
 
 /*========== TOP SCROLL BUTTON ==========*/
 
