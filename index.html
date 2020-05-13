@@ -902,16 +902,16 @@
 						<div class="row py-3">
 							<div class="col-md-5 px-0 pr-md-3">
 								<img src="img/nuno.png" alt="" />
-								<p class="lead">
+								<p>
 									At our core is a collection of design and development
 									solutions that represent everything your business needs to
 									compete in the modern marketplace.
 								</p>
 								<strong>Our Location</strong>
-								<p>100 Street Name <br />Our City, AA 10000</p>
-								<strong>Contact info</strong>
+								<p>100 Street Name<br />Our City, AA 10000</p>
+								<strong>Contact Info</strong>
 								<p>(888) 888-8888<br />email@nuno.com</p>
-								<ul class="social">
+								<ul class="social pt-3">
 									<li>
 										<a href=""><i class="fab fa-facebook-square"></i></a>
 									</li>
@@ -925,24 +925,83 @@
 										<a href=""><i class="fab fa-youtube-square"></i></a>
 									</li>
 									<li>
-										<a href=""><i class="fab fa-linkedin-square"></i></a>
+										<a href=""><i class="fab fa-linkedin"></i></a>
 									</li>
 								</ul>
 							</div>
-							<!--End of column-->
+							<!-- End Column -->
+
+							<div class="col-md-7 px-0 pl-md-3">
+								<h3>Contact Us</h3>
+
+								<form
+									action="contact/contact.php"
+									method="POST"
+									id="contact-form"
+								>
+									<div class="messages"></div>
+									<div class="controls">
+										<div class="form-group">
+											<input
+												type="text"
+												id="form_name"
+												class="form-control"
+												name="name"
+												required="required"
+												placeholder="Enter your name."
+											/>
+										</div>
+
+										<div class="form-group">
+											<input
+												type="email"
+												id="form_email"
+												class="form-control"
+												name="email"
+												required="required"
+												placeholder="Enter your email."
+											/>
+										</div>
+
+										<div class="form-group">
+											<textarea
+												name="message"
+												id="form_message"
+												rows="4"
+												class="form-control"
+												required="required"
+												placeholder="Add your message."
+											></textarea>
+										</div>
+
+										<input
+											type="submit"
+											class="btn btn-outline-light btn-sm"
+											value="Send Message"
+										/>
+									</div>
+									<!-- End Controls -->
+								</form>
+								<!-- End Form -->
+							</div>
+							<!-- End Column -->
 						</div>
-						<!-- end of inner row-->
+						<!-- End Row -->
 					</div>
-					<!-- end of container-->
+					<hr class="socket" />
+					&copy; Nuno Theme.
+					<!-- End Container -->
 				</div>
-				<!-- end of the row-->
+				<!-- End Row Outer -->
 			</div>
-			<!-- End of container-fluid-->
+			<!-- End Container Fluid -->
 		</div>
 		<!-- End Contact Section -->
 
 		<!-- Top Scroll -->
-
+		<a href="#home" class="top-scroll">
+			<i class="fa fa-angle-up"></i>
+		</a>
 		<!-- End of Top Scroll -->
 
 		<!-- Script Source Files -->

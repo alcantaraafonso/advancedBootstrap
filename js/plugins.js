@@ -106,8 +106,22 @@ $(document).ready(function () {
 });
 
 /*========== TOP SCROLL BUTTON ==========*/
-
+$(document).ready(function () {
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 500) {
+			$('.top-scroll').fadeIn();
+		} else {
+			$('.top-scroll').fadeOut();
+		}
+	});
+});
 /*========== MAKE ALL ANIMATION "FADEINUP" ON MOBILE ==========*/
+$(document).ready(function () {
+	if ($(window).width() < 992) {
+		$('div').attr('data-animation', 'fadeInUp');
+		$('div').attr('data-delay', '0s');
+	}
+});
 
 /*========== WAYPOINTS ANIMATION DELAY ==========*/
 //Original Resource: https://www.oxygenna.com/tutorials/scroll-animations-using-waypoints-js-animate-css
